@@ -316,6 +316,16 @@ body {
       flex: 1;
       margin: 15px;
     }
+    .service-grid-container {
+      display: grid;
+    }
+    .service-grid-item {
+      width: 200px;
+      height: 50px;
+      background-color: orange;
+      border: solid;
+      color: black;
+    }
   
   
   /* REACH OUT STYLES END */
@@ -423,5 +433,6 @@ body {
   .contact-form {
     order: 3;
   }
+  
 }
  
